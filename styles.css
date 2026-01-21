@@ -1,3 +1,4 @@
+
 ul {
     list-style: none;
 }
@@ -19,4 +20,34 @@ ul {
     display: flex;
     justify-content: space-around;
     width: 100%;
+}
+
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url(Montserrat-Regular.ttf);
+}
+
+body {
+    font-family: "Montserrat Regular";
+}
+
+/* элемент {
+    свойство: значение;
+    свойство2: значение2;
+}
+
+элемент2 {
+    свойство3: значение3;
+} */
+
+input {
+    margin-right: 30px; 
+    padding: 15px; 
+    font-size: 18px; 
+    width: 100px;
+    background-image: url(search-interface-symbol.png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-x: 95px;
+    background-position-y: center;
 }
