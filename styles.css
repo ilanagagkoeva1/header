@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+}
+img {
+    width: 200px;
+}
+a {
+   text-decoration: none;
+   color: black;
+   font-size: 32px;
+   white-space: nowrap;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
